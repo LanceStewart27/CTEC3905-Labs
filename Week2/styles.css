@@ -1,0 +1,65 @@
+body {
+
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    flex-shrink: 0;
+    flex-basis: 15vw;
+   
+}
+
+nav a {
+    background-color:black;
+    color: aliceblue;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    transition: background-color 0.5s;
+   
+}
+
+nav a:hover {
+    background-color: gainsboro;
+
+}
+
+header, section, main{
+    overflow: auto;
+}
+
+header, section{
+    padding: 0 0.5em;
+    overflow: auto;
+    color: white;
+}
+
+header {
+    background-color: silver;
+}
+
+section{
+    background-color: grey;
+    overflow: auto;
+   
+}
+
+nav,main{
+    box-sizing: border-box;
+
+}
+
+main{
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#target {
+    background-color: white;
+    color: black;
+    border: 5px solid black;
+    padding: 0 0.5em;
+}

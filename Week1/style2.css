@@ -1,0 +1,13 @@
+body {
+    width: 600px;
+    margin-inline: auto;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+
+}
+
+.special {
+    background: white;
+    color: blue;
+}

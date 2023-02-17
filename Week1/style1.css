@@ -1,0 +1,12 @@
+body {
+    max-width: 600px;
+    margin-inline: auto;
+    background-color: wheat;
+    color: black;
+
+}
+
+.special {
+    background: white;
+    color: blue;
+}
